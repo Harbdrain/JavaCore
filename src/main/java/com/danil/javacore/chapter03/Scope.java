@@ -1,6 +1,6 @@
 package com.danil.javacore.chapter03;
 
-public class Scope {
+class Scope {
     public static void main(String[] args) {
         int x;
 

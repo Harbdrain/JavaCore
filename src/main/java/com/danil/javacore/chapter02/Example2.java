@@ -1,6 +1,6 @@
 package com.danil.javacore.chapter02;
 
-public class Example2 {
+class Example2 {
     public static void main(String[] args) {
         int num; // num is declared, but not defined.
         num = 10; // num is defined.

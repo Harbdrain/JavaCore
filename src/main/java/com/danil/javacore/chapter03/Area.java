@@ -1,6 +1,6 @@
 package com.danil.javacore.chapter03;
 
-public class Area {
+class Area {
     public static void main(String[] args) {
         double pi, r, a;
 

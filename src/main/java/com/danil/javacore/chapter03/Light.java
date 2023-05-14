@@ -1,6 +1,6 @@
 package com.danil.javacore.chapter03;
 
-public class Light {
+class Light {
     public static void main(String[] args) {
         int lightspeed;
         long days;

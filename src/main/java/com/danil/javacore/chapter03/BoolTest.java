@@ -1,6 +1,6 @@
 package com.danil.javacore.chapter03;
 
-public class BoolTest {
+class BoolTest {
     public static void main(String[] args) {
         boolean b;
 

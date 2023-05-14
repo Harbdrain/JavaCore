@@ -1,6 +1,6 @@
 package com.danil.javacore.chapter03;
 
-public class LifeTime {
+class LifeTime {
     public static void main(String[] args) {
         int x;
 

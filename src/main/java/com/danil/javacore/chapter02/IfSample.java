@@ -1,6 +1,6 @@
 package com.danil.javacore.chapter02;
 
-public class IfSample {
+class IfSample {
     public static void main(String[] args) {
         int x = 10, y = 20;
 

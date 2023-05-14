@@ -1,6 +1,6 @@
 package com.danil.javacore.chapter03;
 
-public class Promote {
+class Promote {
     public static void main(String[] args) {
         byte b = 42;
         char c = 'a';

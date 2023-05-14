@@ -1,6 +1,6 @@
 package com.danil.javacore.chapter02;
 
-public class BlockTest {
+class BlockTest {
     public static void main(String[] args) {
         int x, y = 20;
 

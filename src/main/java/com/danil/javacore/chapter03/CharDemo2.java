@@ -1,6 +1,6 @@
 package com.danil.javacore.chapter03;
 
-public class CharDemo2 {
+class CharDemo2 {
     public static void main(String[] args) {
         char ch1;
 
