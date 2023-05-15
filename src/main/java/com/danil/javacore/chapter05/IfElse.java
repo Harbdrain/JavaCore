@@ -1,4 +1,4 @@
-package com.danil.javacore.chapter04;
+package com.danil.javacore.chapter05;
 
 class IfElse {
     public static void main(String[] args) {
