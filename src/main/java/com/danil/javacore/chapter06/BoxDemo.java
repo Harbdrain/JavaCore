@@ -1,11 +1,5 @@
 package com.danil.javacore.chapter06;
 
-class Box {
-    double width;
-    double height;
-    double depth;
-}
-
 class BoxDemo {
     public static void main(String[] args) {
         Box box = new Box();
