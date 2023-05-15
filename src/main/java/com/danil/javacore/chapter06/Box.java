@@ -5,6 +5,13 @@ class Box {
     double height;
     double depth;
 
+    Box() {
+    };
+
+    Box(double w, double h, double d) {
+        setDim(w, h, d);
+    }
+
     void printVolume() {
         System.out.println("Volume: " + (width * height * depth));
     }
