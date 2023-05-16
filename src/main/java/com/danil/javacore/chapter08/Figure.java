@@ -1,6 +1,6 @@
 package com.danil.javacore.chapter08;
 
-class Figure {
+abstract class Figure {
     double dim1, dim2;
 
     Figure(double a, double b) {
@@ -8,8 +8,5 @@ class Figure {
         dim2 = b;
     }
 
-    double area() {
-        System.out.println("Area is undefined");
-        return 0;
-    }
+    abstract double area();
 }
