@@ -8,6 +8,7 @@ class B4 extends A4 {
     }
 
     void show() {
+        super.show();
         System.out.println("k: " + k);
     }
 }
