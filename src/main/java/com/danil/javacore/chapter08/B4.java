@@ -7,8 +7,7 @@ class B4 extends A4 {
         k = c;
     }
 
-    void show() {
-        super.show();
-        System.out.println("k: " + k);
+    void show(String msg) {
+        System.out.println(msg);
     }
 }
