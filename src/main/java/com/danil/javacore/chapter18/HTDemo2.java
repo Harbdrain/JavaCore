@@ -1,6 +1,5 @@
 package com.danil.javacore.chapter18;
 
-import java.util.Enumeration;
 import java.util.Hashtable;
 import java.util.Iterator;
 import java.util.Set;
@@ -8,7 +7,6 @@ import java.util.Set;
 class HTDemo2 {
     public static void main(String[] args) {
         Hashtable<String, Double> balance = new Hashtable<>();
-        Enumeration<String> names;
 
         String str;
         double bal;
