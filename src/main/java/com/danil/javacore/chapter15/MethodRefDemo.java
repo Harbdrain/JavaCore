@@ -8,6 +8,14 @@ class MyStringOps {
         }
         return result;
     }
+
+    String strReverse2(String str) {
+        String result = "";
+        for (int i = str.length() - 1; i > -1; i--) {
+            result += str.charAt(i);
+        }
+        return result;
+    }
 }
 
 class MethodRefDemo {
