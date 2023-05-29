@@ -11,7 +11,9 @@ class DirList {
     public static void main(String[] args) {
         String dirname = "files/";
 
-        try (DirectoryStream<Path> dirstrm = Files.newDirectoryStream(Paths.get(dirname))) {
+        DirectoryStream.Filter<Path> how = filename -> Files.isWritable(filename);
+
+        try (DirectoryStream<Path> dirstrm = Files.newDirectoryStream(Paths.get(dirname), how)) {
             System.out.println("Directory " + dirname);
 
             for (Path entry : dirstrm) {
