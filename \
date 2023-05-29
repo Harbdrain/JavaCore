@@ -1,0 +1,16 @@
+package com.danil.javacore.chapter20;
+
+import java.io.FileInputStream;
+import java.io.IOException;
+
+class FileInputStreamDemo {
+    public static void main(String[] args) {
+        int size;
+        try (FileInputStream f = new FileInputStream(
+                "src/main/java/com/danil/javacore/chapter20/FileInputStreamDemo.java")) {
+            System.out.println("available bytes: " + f.available());
+        } catch (IOException e) {
+            System.out.println(e);
+        }
+    }
+}
