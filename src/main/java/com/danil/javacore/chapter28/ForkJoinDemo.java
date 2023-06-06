@@ -43,7 +43,7 @@ class ForkJoinDemo {
         System.out.println("\n");
 
         SqrtTransform task = new SqrtTransform(nums, 0, nums.length);
-        fjp.invoke(task);
+        fjp.invoke(task); // or task.invoke() to invoke in general pool
         System.out.println("Part of transformed sequence:");
         for (int i = 0; i < 10; i++) {
             System.out.format("%.4f ", nums[i]);
